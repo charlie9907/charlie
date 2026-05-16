@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #121212;
+  color: #e0e0e0;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  padding: 1.5rem;
+}
+
+nav {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+h1 { color: #fff; }
+p { line-height: 1.6; color: #b0b0b0; }
